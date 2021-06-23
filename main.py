@@ -1,5 +1,5 @@
 '''
-Author: Deeshan Sharma
+Author: Murteza
 Date Created: October 20, 2020
 Purpose: Multi purpose Bot for Discord to serve all the functionality offered by MEE6 and YAGPDB Bots (will be expanding more further).
 '''
@@ -14,7 +14,7 @@ intents = discord.Intents.all()
 
 # Enter your token in the same directory in 'token.env' file
 load_dotenv('token.env')
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('ODQxMTI0MjAyMDYzODU1NjQ4.YJiL9Q.DeYqflBLMxCqTD4cVtsODAyM5Zo')
 
 # Give your bot your own prefix here
 bot = commands.Bot(command_prefix='RED ', intents=intents)
